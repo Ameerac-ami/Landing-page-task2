@@ -140,7 +140,7 @@ section.spotlight div.left ul{
 margin-left: 79px;
 }
 section.spotlight div.left ul li{
-    width: 83%;
+    width: 66%;
 }
 section.spotlight div.left ul li h1{
     font-weight: 600;
@@ -153,7 +153,7 @@ section.spotlight div.left ul li p{
     font-weight: 500;
     font-family: 'Poppins';
     color: #868080;
-    margin: 30px 54px 86px;
+    margin: 31px 50px 84px 50px;
     font-size: 14px;
     }
 section.spotlight div.left ul li a.fill{
@@ -180,27 +180,33 @@ section.spotlight div.left ul li a.nofill img{
 
 section.spotlight div.left div.bottom {
     display: flex;
+    /* justify-content: ; */
     justify-content: flex-start;
+    padding: 100px 0 0 0;
 }
 section.spotlight div.left div.bottom ul{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 section.spotlight div.left div.bottom ul li{
-    margin-right: 22px;
+    
 }
-
+section.spotlight div.left div.bottom ul li:first-child{
+    margin-right: 52px;
+    max-width: 74px;
+}
 section.spotlight div.left div.bottom ul li p{
     text-align: center;
-    margin: 27px 0px 10px 0px;
+    margin: 19px 0 32px;
     font-family: 'Poppins';
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 500;
 }
 section.spotlight div.left div.bottom ul li a{
 }
 section.spotlight div.left div.bottom ul li a img{
-    width: 69px;
+    width: 64px;
+    margin-top: 15px;
 }
 section.spotlight div.right {
 
