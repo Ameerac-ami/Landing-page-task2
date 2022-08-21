@@ -14,19 +14,63 @@
 ol, ul {
 	list-style: none;
 }
+body{
+    font-family: "Poppins", sans-serif;
+
+}
 a:hover,.submit:hover{
 	filter: alpha(opacity = 85);
 	-moz-opacity: 0.85;
 	-khtml-opacity: 0.85;
 	opacity: 0.85;
 }
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "Poppins", Arial;
+	font-weight: 400;
+}
+:root {
+    --main-bg-color: #FCDA69;
+    --main-heading-color:#18212c;
+  }
+/*  */
+@font-face {
+    font-family: 'Inter';
+    src: url('../Fonts/Font/Inter-Bold.woff2') format('woff2'),
+        url('../Fonts/Font/Inter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../Fonts/Font/Inter-Regular.woff2') format('woff2'),
+        url('../Fonts/Font/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../Fonts/Font/Inter-Medium.woff2') format('woff2'),
+        url('../Fonts/Font/Inter-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*  */
 @font-face {
     font-family: 'Poppins';
     src: url('../Fonts/Poppins-Medium.woff2') format('woff2'),
         url('../Fonts/Poppins-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
-    font-display: swap;
+    /* font-display: swap; */
 }
 
 @font-face {
@@ -35,7 +79,7 @@ a:hover,.submit:hover{
         url("../Fonts/Poppins-Bold.woff") format('woff');
     font-weight: bold;
     font-style: normal;
-    font-display: swap;
+    /* font-display: swap; */
 }
 
 @font-face {
@@ -44,7 +88,7 @@ a:hover,.submit:hover{
         url('../Fonts/Poppins-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
+    /* font-display: swap; */
 }
 header {
     height: 100px;
@@ -84,9 +128,9 @@ header div.middle ul li:last-child{
 }
 header div.middle ul li a{
     font-weight: 500;
-    font-size: 17px;
-    font-family: 'Poppins-Regular';
-    color : #000;
+    font-size: 14px;
+    color: #000;
+    font-family: 'Poppins';
 }
 header div.middle ul li a:hover {
     color : #000;
@@ -114,11 +158,11 @@ header div.right ul li a{
 }
 header div.right ul li a.button{
     background: #fff;
-	border: 1.9px solid #000;
-	text-align: center;
-	font-size: 17px;
+    border: 1.9px solid #000;
+    text-align: center;
+    font-size: 17px;
     font-weight: 600;
-	padding: 12px 26px;
+    padding: 10px 30px;
     border-radius: 3px;
 }
 section.spotlight {
@@ -126,18 +170,16 @@ section.spotlight {
     display: flex;
     justify-content: space-between;
     background: url(../Assets/landing-page-vector.png) no-repeat;
-    background-position: right 148px bottom 55px;
-    background-size: 47%;
-    height: 712px;
+    background-position: right 53px bottom 37px;
+    background-size: 51%;
+    height: 735px;
     position: relative;
     z-index: 1;
 }
 section.spotlight div.left{
-
 }
 section.spotlight div.left ul{
-    
-margin-left: 79px;
+    margin-left: 45px;
 }
 section.spotlight div.left ul li{
     width: 66%;
@@ -158,13 +200,14 @@ section.spotlight div.left ul li p{
     }
 section.spotlight div.left ul li a.fill{
     color: #ffffff;
-    font-size: 15px;
+    font-size: 13px;
     background: #8873EF;
     border-radius: 9px;
-    padding: 15px 10px;
+    padding: 15px 21px;
     font-family: 'Poppins';
 }
-section.spotlight div.left ul li a.fill img{
+section.spotlight div.left ul li a.fill img.tel{
+    margin-left: 17px;
     max-width: 18px;
 }
 section.spotlight div.left ul li a.nofill{
@@ -180,7 +223,6 @@ section.spotlight div.left ul li a.nofill img{
 
 section.spotlight div.left div.bottom {
     display: flex;
-    /* justify-content: ; */
     justify-content: flex-start;
     padding: 100px 0 0 0;
 }
@@ -195,7 +237,10 @@ section.spotlight div.left div.bottom ul li:first-child{
     margin-right: 52px;
     max-width: 74px;
 }
-section.spotlight div.left div.bottom ul li p{
+section.spotlight div.left div.bottom ul li div.para {
+
+}
+section.spotlight div.left div.bottom ul li div.para p{
     text-align: center;
     margin: 19px 0 32px;
     font-family: 'Poppins';
@@ -209,22 +254,82 @@ section.spotlight div.left div.bottom ul li a img{
     margin-top: 15px;
 }
 section.spotlight div.right {
-
 }
-section.spotlight div.right p{
-    font-size: 18px;
+section.spotlight div.right div {
+text-align: center;
+margin: 14px 41px 0;
+}
+section.spotlight div.right div p{
+    font-size: 19px;
     font-family: 'Poppins';
     font-weight: 600;
-    max-width: 93%;
-    text-align: center;
+    line-height: 1.7em;
+}
+section.services {
+    background: #FCDA69;
+    padding: 20px 20px;
+
+}
+section.services div.left{
+    /* width: 56px; */
+    margin: 86px;
+}
+section.services div.left h1{
+    font-weight: 600;
+    font-size: 66px;
+    width: 31%;
+    line-height: 1.4em;
+}
+section.services div.left p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #686262;
+    margin-left: 59px;
+    margin-top: 15px;
+    width: 36%;
+}
+section.services div.right {
+    display: flex;
+    justify-content: flex-end;
+}
+section.services div.right div.items{
+    max-width: 360px;
+
+}
+section.services div.right div.item{
+    margin-bottom: 120px;
+
+}
+section.services div.right div.item h4{
+    /* margin-bottom: 20px; */
+    font-size: 24px;
+    font-weight: 700;
+}
+section.services div.right div.item h2{
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-weight: 700;
 }
 
+section.services div.right div.item a{
+    font-size: 23px;
+    font-weight: 500;
+    color: #000;
+}
+section.services div.right div.item a.arrow{
+    width: 44px;
+}
+section.services div.right div.item a.arrow img{
 
+/* width: 100%; */
 
+/* display: block; */
+}
+section.services div.right div.item hr.line{
+    border-bottom: 2px solid #686262;
+    width: 10px;
+}
 
-
-
-
-
-
-
+section.services div.bottom{
+    
+}
