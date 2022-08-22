@@ -1,34 +1,39 @@
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	vertical-align: baseline;
-	background: transparent;
-	font-weight: normal;
-	text-decoration: none;
-	outline: none;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 body{
     font-family: "Poppins", sans-serif;
 
 }
 a:hover,.submit:hover{
-	filter: alpha(opacity = 85);
-	-moz-opacity: 0.85;
-	-khtml-opacity: 0.85;
-	opacity: 0.85;
+    filter: alpha(opacity = 85);
+    -moz-opacity: 0.85;
+    -khtml-opacity: 0.85;
+    opacity: 0.85;
 }
 p{
-	line-height:1.6em;
-	font-size: 16px;
-	font-family: "Poppins", Arial;
-	font-weight: 400;
+    line-height:1.6em;
+    font-size: 16px;
+    font-family: "Poppins", Arial;
+    font-weight: 400;
+}
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1195px;
 }
 :root {
     --main-bg-color: #FCDA69;
@@ -92,14 +97,14 @@ p{
 }
 header {
     height: 100px;
-	display: flex;
-	justify-content: space-between ;
-	background: #fff;
-	width: 100%;
-	padding: 0px 93px;
-	align-items: center;
-	position: relative;
-	z-index: 1;
+    display: flex;
+    justify-content: space-between ;
+    background: #fff;
+    width: 100%;
+    padding: 0px 93px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
 
 }
 header div.left{
@@ -110,14 +115,14 @@ header div.left div.logo {
 }
 header div.left div.logo img{
     display: block;
-	width: 100%;
+    width: 100%;
 }
 header div.middle{
 }
 header div.middle ul{
     display: flex;
-	justify-content: center;
-	align-items: center;
+    justify-content: center;
+    align-items: center;
     margin-left: 26px;
 }
 header div.middle ul li{
@@ -135,7 +140,7 @@ header div.middle ul li a{
 header div.middle ul li a:hover {
     color : #000;
     font-weight: 600;
-	border-bottom: 1.7px solid #000;
+    border-bottom: 1.7px solid #000;
 }
 header div.right {
     display: flex;
@@ -165,7 +170,7 @@ header div.right ul li a.button{
     padding: 10px 30px;
     border-radius: 3px;
 }
-section.spotlight {
+#spotlight {
     padding: 60px 50px;
     display: flex;
     justify-content: space-between;
@@ -176,29 +181,29 @@ section.spotlight {
     position: relative;
     z-index: 1;
 }
-section.spotlight div.left{
+#spotlight div.left{
 }
-section.spotlight div.left ul{
+#spotlight div.left ul{
     margin-left: 45px;
 }
-section.spotlight div.left ul li{
+#spotlight div.left ul li{
     width: 66%;
 }
-section.spotlight div.left ul li h1{
+#spotlight div.left ul li h1{
     font-weight: 600;
     font-size: 71px;
     width: 320px;
     line-height: 1.2em;
     font-family: 'Poppins';
 }
-section.spotlight div.left ul li p{
+#spotlight div.left ul li p{
     font-weight: 500;
     font-family: 'Poppins';
     color: #868080;
     margin: 31px 50px 84px 50px;
     font-size: 14px;
     }
-section.spotlight div.left ul li a.fill{
+#spotlight div.left ul li a.fill{
     color: #ffffff;
     font-size: 13px;
     background: #8873EF;
@@ -206,81 +211,81 @@ section.spotlight div.left ul li a.fill{
     padding: 15px 21px;
     font-family: 'Poppins';
 }
-section.spotlight div.left ul li a.fill img.tel{
+#spotlight div.left ul li a.fill img.tel{
     margin-left: 17px;
     max-width: 18px;
 }
-section.spotlight div.left ul li a.nofill{
+#spotlight div.left ul li a.nofill{
     margin-left: 17px;
     font-family: 'Poppins';
     font-weight: 600;
     color: #000;
     font-size: 14px;
 }
-section.spotlight div.left ul li a.nofill img{
+#spotlight div.left ul li a.nofill img{
     width: 15px;
 }
 
-section.spotlight div.left div.bottom {
+#spotlight div.left div.bottom {
     display: flex;
     justify-content: flex-start;
     padding: 100px 0 0 0;
 }
-section.spotlight div.left div.bottom ul{
+#spotlight div.left div.bottom ul{
     display: flex;
     justify-content: space-between;
 }
-section.spotlight div.left div.bottom ul li{
+#spotlight div.left div.bottom ul li{
     
 }
-section.spotlight div.left div.bottom ul li:first-child{
+#spotlight div.left div.bottom ul li:first-child{
     margin-right: 52px;
     max-width: 74px;
 }
-section.spotlight div.left div.bottom ul li div.para {
+#spotlight div.left div.bottom ul li div.para {
 
 }
-section.spotlight div.left div.bottom ul li div.para p{
+#spotlight div.left div.bottom ul li div.para p{
     text-align: center;
     margin: 19px 0 32px;
     font-family: 'Poppins';
     font-size: 14px;
     font-weight: 500;
 }
-section.spotlight div.left div.bottom ul li a{
+#spotlight div.left div.bottom ul li a{
 }
-section.spotlight div.left div.bottom ul li a img{
+#spotlight div.left div.bottom ul li a img{
     width: 64px;
     margin-top: 15px;
 }
-section.spotlight div.right {
+#spotlight div.right {
 }
-section.spotlight div.right div {
+#spotlight div.right div {
 text-align: center;
 margin: 14px 41px 0;
 }
-section.spotlight div.right div p{
+#spotlight div.right div p{
     font-size: 19px;
     font-family: 'Poppins';
     font-weight: 600;
     line-height: 1.7em;
 }
-section.services {
+#services {
     background: #FCDA69;
     padding: 20px 20px;
 
 }
-section.services div.left{
+#services div.left{
     /* width: 56px; */
     margin: 86px;
 }
-section.services div.left h1{
+#services div.left h1{
     font-weight: 600;
     font-size: 66px;
     width: 31%;
     line-height: 1.4em;
 }
-section.services div.left p{
+#services div.left p{
     font-size: 15px;
     font-weight: 500;
     color: #686262;
@@ -288,48 +293,196 @@ section.services div.left p{
     margin-top: 15px;
     width: 36%;
 }
-section.services div.right {
+#services div.right {
     display: flex;
     justify-content: flex-end;
 }
-section.services div.right div.items{
+#services div.right div.items{
     max-width: 360px;
 
 }
-section.services div.right div.item{
+#services div.right div.item{
     margin-bottom: 120px;
 
 }
-section.services div.right div.item h4{
+#services div.right div.item h4{
     /* margin-bottom: 20px; */
     font-size: 24px;
     font-weight: 700;
 }
-section.services div.right div.item h2{
+#services div.right div.item h2{
     margin-bottom: 20px;
     font-size: 45px;
     font-weight: 700;
 }
 
-section.services div.right div.item a{
+#services div.right div.item a{
     font-size: 23px;
     font-weight: 500;
     color: #000;
 }
-section.services div.right div.item a.arrow{
+#services div.right div.item a.arrow{
     width: 44px;
 }
-section.services div.right div.item a.arrow img{
-
-/* width: 100%; */
-
-/* display: block; */
+#services div.right div.item a.arrow img{
 }
-section.services div.right div.item hr.line{
+#services div.right div.item hr.line{
     border-bottom: 2px solid #686262;
-    width: 10px;
+    width: 50%;
 }
 
-section.services div.bottom{
+#services div.bottom{
     
+}
+
+#projects {
+    background: #FCDA69;
+    padding: 65px 0;
+    position: relative;
+}
+#projects div.head {
+    /* padding-left: 86px; */
+}
+
+#projects div.head h3 {
+    font-size: 65px;
+    font-weight: 600;
+    width: 28%;
+    line-height: 1.5em;
+    color: #282A39;
+    letter-spacing: 0.02em;
+}
+#projects div.content {
+    position: relative;
+}
+#projects div.content ul {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    /* margin: 0; */
+}
+#projects div.content ul li {
+    margin: 60px 0px 0 18px;
+}
+
+#projects div.content ul li div.sub_head {
+    position: relative;
+}
+#projects div.content ul li div.sub_head h4 {
+    color: #282A39;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.7em;
+    width: 55%;
+}
+#projects div.content ul li p {
+    font-size: 13px;
+    line-height: 1.5em;
+    color: #000;
+    font-weight: 600;
+    width: 39%;
+    margin-bottom: 23px;
+    }
+#projects div.content ul li div.arrow {
+    width: 10%;
+    position: absolute;
+    left: 64%;
+    top: 5%;
+}
+#projects div.content ul li div.sub_head div.arrow img {
+    display: block;
+    width: 100%;
+}
+#projects div.content ul li div.template {
+    width: 73%;
+}
+#projects div.content ul li div.template img {
+    width: 100%;
+    display: block;
+}
+#projects div.content ul li:first-child div.template {
+    max-width: 75%;
+}
+#projects div.content ul li:first-child div.template img {
+    width: 100%;
+    display: block;
+}
+
+
+#projects div.content ul li:nth-child(2) {
+    position: absolute;
+    bottom: 23%;
+    left: 33%;
+}
+#projects div.content ul li:nth-child(2) hr.line {
+    border-top: 2px solid #806f36;
+    width: 69%;
+    margin-bottom: 12px;
+}
+#projects div.content ul li:nth-child(2) div.sub_head h4 {
+    color: #282A39;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.7em;
+    width: 49%;
+}
+#projects div.content ul li:nth-child(2) div.arrow {
+    position: absolute;
+    left: 63%;
+    top: 5%;
+}
+#projects div.content ul li:nth-child(2) div.template {
+    max-width: 75%;
+}
+#projects div.content ul li:nth-child(2) div.template img {
+    width: 100%;
+    display: block;
+}
+
+#projects div.content ul li:nth-child(3) hr.line {
+    border-top: 2px solid #806f36;
+    width: 100%;
+    margin-bottom: 12px;
+}
+#projects div.content ul li:nth-child(3) {
+    position: absolute;
+    bottom: 47%;
+    left: 66%;
+}
+#projects div.content ul li:nth-child(3) div.sub_head h4 {
+    color: #282A39;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.7em;
+    width: 77%;
+}
+#projects div.content ul li:nth-child(3) div.arrow {
+    width: 13%;
+    position: absolute;
+    left: 87%;
+    top: 5%;
+}
+#projects div.content ul li:nth-child(3) div.template {
+    width: 95%;
+}
+#projects div.content ul li:nth-child(3) div.template img {
+    width: 100%;
+    display: block;
+}
+
+#projects div.content ul li hr.line {
+    border-top: 2px solid #806f36;
+    width: 70%;
+    margin-bottom: 12px;
+}
+#projects div.icon {
+    width: 13%;
+    position: absolute;
+    left: 80%;
+    bottom: 8%;
+}
+
+#projects div.icon img {
+display: block;
+width: 100%;
 }
