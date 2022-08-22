@@ -105,7 +105,6 @@ header {
     align-items: center;
     position: relative;
     z-index: 1;
-
 }
 header div.left{
 }
@@ -202,7 +201,7 @@ header div.right ul li a.button{
     color: #868080;
     margin: 31px 50px 84px 50px;
     font-size: 14px;
-    }
+}
 #spotlight div.left ul li a.fill{
     color: #ffffff;
     font-size: 13px;
@@ -236,10 +235,8 @@ header div.right ul li a.button{
     justify-content: space-between;
 }
 #spotlight div.left div.bottom ul li{
-    
-width: 84px;
-    
-margin-left: 20px;
+    width: 84px; 
+    margin-left: 20px;
 }
 #spotlight div.left div.bottom ul li:first-child{
 
@@ -264,8 +261,8 @@ margin-left: 20px;
 #spotlight div.right {
 }
 #spotlight div.right div {
-text-align: center;
-margin: 14px 41px 0;
+    text-align: center;
+    margin: 14px 41px 0;
 }
 #spotlight div.right div p{
     font-size: 19px;
@@ -273,67 +270,107 @@ margin: 14px 41px 0;
     font-weight: 600;
     line-height: 1.7em;
 }
-#services {
+#services  {
     background: #FCDA69;
-    padding: 20px 20px;
-
+    padding: 23px 20px;
 }
-#services div.left{
-    /* width: 56px; */
-    margin: 86px;
+#services div.service_main{
+    display: flex;
+    justify-content: space-between;
 }
-#services div.left h1{
+#services div.service_main div.left{
+    padding: 59px 0 0 69px;
+}
+#services div.service_main div.left div.top {
+}
+#services div.service_main div.left div.top h1{
     font-weight: 600;
     font-size: 66px;
-    width: 31%;
+    width: 58%;
     line-height: 1.4em;
+    letter-spacing: 1.2px;
 }
-#services div.left p{
+#services div.service_main div.left div.top span {
+    color: #6c5e2d;
+    margin-top: 80px;
+}
+#services div.service_main div.left div.top p{
     font-size: 15px;
     font-weight: 500;
     color: #686262;
     margin-left: 59px;
     margin-top: 15px;
-    width: 36%;
+    width: 66%;
 }
-#services div.right {
+#services div.service_main div.right {
+    padding-top: 40px;
+}
+#services div.service_main div.right div.item{
     display: flex;
-    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-right: 109px;}
+#services div.service_main div.right div.item div.item_title {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 9px;
 }
-#services div.right div.items{
-    max-width: 360px;
-
-}
-#services div.right div.item{
-    margin-bottom: 120px;
-
-}
-#services div.right div.item h4{
-    /* margin-bottom: 20px; */
-    font-size: 24px;
+#services div.service_main div.right div.item div.item_title h4{
+    margin-top: 15px;
+    margin-right: 31px;
+    font-size: 26px;
     font-weight: 700;
+    width: 13%;
 }
-#services div.right div.item h2{
-    margin-bottom: 20px;
-    font-size: 45px;
+#services div.service_main div.right div.item div.item_title h2{
+    font-size: 41px;
     font-weight: 700;
+    width: 60%;
 }
-
-#services div.right div.item a{
-    font-size: 23px;
+#services div.service_main div.right div.item div.click {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    }
+#services div.service_main div.right div.item div.click div.arrow{
+    width: 13%;
+}
+#services div.service_main div.right div.item div.click div.arrow img{
+    display: block;
+    width: 100%;
+    margin-top: 13px;
+    margin-left: 47px;
+}
+#services div.service_main div.right div.item div.click a{
+    font-size: 14px;
     font-weight: 500;
     color: #000;
+    margin-right: 189px;
+    text-align: center;
 }
-#services div.right div.item a.arrow{
-    width: 44px;
+
+#services div.service_main div.right div.item hr.line1{
+    border-bottom: 1px solid #686262;
+    width: 106%;
 }
-#services div.right div.item a.arrow img{
+#services div.service_main div.right div.item hr.line2{
+    border-bottom: 1px solid #686262;
+    width: 100%;
+    margin-top: 45px;
 }
-#services div.right div.item hr.line{
-    border-bottom: 2px solid #686262;
-    width: 50%;
+#services div.service_main div.right div.item hr.line3{
+    border-bottom: 1px solid #686262;
+    width: 100%;
+    margin-top: 45px;
 }
-#services div.bottom{   
+#services div.service_main div.left div.bottom{
+    margin-top: 202px;
+}
+#services div.service_main div.left  div.bottom div.service_icon {
+    width: 22%;
+}
+#services div.service_main div.left div.bottom div.service_icon img{
+    width: 100%;
+    display: block;
 }
 
 #experience {
