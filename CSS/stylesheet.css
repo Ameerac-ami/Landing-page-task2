@@ -229,7 +229,7 @@ header div.right ul li a.button{
 #spotlight div.left div.bottom {
     display: flex;
     justify-content: flex-start;
-    padding: 100px 0 0 0;
+    padding: 90px 0 0 0;
 }
 #spotlight div.left div.bottom ul{
     display: flex;
@@ -237,20 +237,23 @@ header div.right ul li a.button{
 }
 #spotlight div.left div.bottom ul li{
     
+width: 84px;
+    
+margin-left: 20px;
 }
 #spotlight div.left div.bottom ul li:first-child{
-    margin-right: 52px;
-    max-width: 74px;
+
 }
 #spotlight div.left div.bottom ul li div.para {
 
 }
 #spotlight div.left div.bottom ul li div.para p{
     text-align: center;
-    margin: 19px 0 32px;
+    margin: 36px 0px 32px 0;
     font-family: 'Poppins';
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
+    color: var(--main-heading-color);
 }
 #spotlight div.left div.bottom ul li a{
 }
@@ -330,9 +333,127 @@ margin: 14px 41px 0;
     border-bottom: 2px solid #686262;
     width: 50%;
 }
+#services div.bottom{   
+}
 
-#services div.bottom{
-    
+#experience {
+  padding: 72px;
+}
+
+#experience div.body_section {
+  display: grid;
+  gap: 20px;
+}
+
+#experience div.body_section div.left {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+#experience div.body_section div.left div.title {
+}
+
+#experience div.body_section div.left div.title h2 {
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 1.1px;
+  width: 44%;
+}
+
+#experience div.body_section div.left div.tile_body {
+  display: flex;
+  margin-top: 30px;
+}
+#experience div.body_section div.left div.tile_body span {
+}
+#experience div.body_section div.left div.tile_body p {
+  width: 418px;
+  margin-left: 30px;
+}
+#experience div.body_section div.left_bottom {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+
+#experience div.body_section div.left_bottom ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 131px 0px;
+}
+#experience div.body_section div.left_bottom ul li {
+  width: 26%;
+}
+#experience div.body_section div.left_bottom ul li div.icons {
+  width: 72px;
+  margin-bottom: 9px;
+  margin-top: 7px;
+}
+#experience div.body_section div.left_bottom ul li div.icons img {
+  display: block;
+  width: 100%;
+}
+
+#experience div.body_section div.left_bottom ul li h4 {
+  font-size: 15px;
+  font-weight: 500;
+  width: 127px;}
+
+#experience div.body_section div.right {
+  grid-column: 2 / span 11;
+  grid-row: 1 / span 2;
+}
+
+#experience div.body_section div.right div.title {
+
+}
+#experience div.body_section div.right div.title h2 {
+  /* border-bottom: 2px solid #000; */
+  /* margin-bottom: 3px; */
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#experience div.body_section div.right div.title_body {
+  margin-top: 25px;
+}
+#experience div.body_section div.right div.title_body ul {
+}
+
+#experience div.body_section div.right div.title_body ul li {
+  display: flex;
+  border-top: 2px solid gray;
+  margin-bottom: 30px;
+  /* margin-top: 14px; */
+}
+
+#experience div.body_section div.right div.title_body ul li div.year {
+  margin-top: 19px;
+}
+
+#experience div.body_section div.right div.title_body ul li div.year h4 {
+  font-weight: 600;
+}
+#experience div.body_section div.right div.title_body ul li div.job {
+  margin-left: 72px;
+  margin-top: 16px;
+}
+#experience div.body_section div.right div.title_body ul li:first-child div.job{
+    margin-left: 50px;
+    margin-top: 15px;
+}
+#experience div.body_section div.right div.title_body ul li div.job div.head {
+  margin-bottom: 12px;
+}
+
+#experience div.body_section div.right div.title_body ul li div.job div.head h2 {
+  font-size: 21px;
+  font-weight: 600;}
+
+#experience div.body_section div.right div.title_body ul li div.job div.sub_head {
+}
+
+#experience div.body_section div.right div.title_body ul  li  div.job div.sub_head p {
 }
 
 #projects {
@@ -469,7 +590,6 @@ margin: 14px 41px 0;
     width: 100%;
     display: block;
 }
-
 #projects div.content ul li hr.line {
     border-top: 2px solid #806f36;
     width: 70%;
@@ -481,8 +601,265 @@ margin: 14px 41px 0;
     left: 80%;
     bottom: 8%;
 }
-
 #projects div.icon img {
-display: block;
-width: 100%;
+    display: block;
+    width: 100%;
+}
+#testimonial {
+    padding: 43px 17px;
+}
+#testimonial div.container {
+    padding-top: 36px;
+}
+#testimonial div.container div.tab_head {
+    padding: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+#testimonial div.container div.tab_head div.left {display: flex;justify-content: space-between;}
+#testimonial div.container div.tab_head div.left h3 {
+    font-size: 57px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 1.6;
+    width: 95%;
+}
+
+#testimonial div.container div.tab_head div.middle {
+    margin-left: 38px;
+    display: flex;
+}
+#testimonial div.container div.tab_head div.middle p {
+    font-size: 12px;
+    color: var(--main-p-color);
+    width: 51%;
+    margin-top: 4px;
+}
+#testimonial div.container div.tab_head div.middle span {
+    color: var(--main-p-color);
+    margin-right: 19px;
+}
+#testimonial div.container div.tab_side {padding-right: 37px;}
+
+#testimonial div.container div.tab_side ul {
+    position: relative;
+}
+
+#testimonial div.container div.tab_side ul li {
+    width: 14%;
+    position: absolute;
+    left: 82%;
+    bottom: 1%;
+}
+#testimonial div.container div.tab_side ul li img {
+    width: 100%;
+    display: block;
+}
+#testimonial div.container div.tab_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 69px 0px;
+}
+#testimonial div.container div.tab_body div.middle hr.line {
+    border-bottom: 1.5px solid #000;
+}
+#testimonial div.container div.tab_body div.left {
+    width: 29%;
+    margin-right: 31px;
+}
+#testimonial div.container div.tab_body div.left div.person1 {
+
+}
+#testimonial div.container div.tab_body div.left div.person1 img {
+    width: 100%;
+    display: block;
+}
+#testimonial div.container div.tab_body div.left div.person2 {
+    width: 95%;
+}
+#testimonial div.container div.tab_body div.left div.person2 img {
+    width: 100%;
+    display: block;
+}
+#testimonial div.container div.tab_body div.middle {
+    width: 43%;
+}
+#testimonial div.container div.tab_body div.middle p {
+    font-size: 17px;
+    color: #646464;
+    width: 93%;
+    margin-bottom: 33px;
+    margin-top: 44px;
+    font-weight: 500;
+}
+#testimonial div.container div.tab_body div.middle p b {
+    font-size: 17px;
+    color: #000;
+    font-weight: 600;
+}
+#testimonial div.container div.tab_body div.middle p small {
+}
+#testimonial div.container div.tab_body div.middle p small b{
+    font-size: 17px;
+    color: #646464;
+    font-weight: 600;
+}
+
+#testimonial div.container div.tab_body div.middle h5 {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 3px;
+    }
+#testimonial div.container div.tab_body div.middle h6 {
+    font-size: 11px;
+    font-weight: 500;
+    color: #646464;
+    margin-bottom: 32px;
+}
+#testimonial div.container div.tab_body div.right {
+    width: 29%;
+    margin-left: 16px;
+}
+#testimonial div.container div.tab_body div.right img{
+    width: 100%;
+    display: block;
+}
+
+
+footer {
+  padding: 56px 86px 38px 38px;
+}
+footer section.top {
+  margin-bottom: 18px;
+  border-bottom: 1px solid rgba(28, 44, 64, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+footer section.top div.item {
+  width: 13%;
+  margin-bottom: 65px;
+}
+footer section.top div.item.large {
+  width: 27%;
+}
+
+footer section.top div.item h1 {
+  width: 101px;
+  margin-bottom: 17px;
+}
+footer section.top div.item h1 a {
+  width: 100%;
+  display: block;
+}
+footer section.top div.item h1 a img {
+  width: 100%;
+  display: block;
+}
+footer section.top div.item p {
+  margin-bottom: 15px;
+  color: #565a5fc7;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+footer section.top div.item h3 {
+  font-size: 24px;
+  color: var(--main-heading-color);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+footer section.top div.item ul {
+}
+footer section.top div.item ul li {
+}
+footer section.top div.item ul li a {
+  padding: 4px 0;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--main-heading-color);
+}
+footer section.top div.item:last-child {
+  width: 22%;
+}
+footer section.top div.item:last-child h3 {
+}
+footer section.top div.item:last-child p {
+  font-weight: 500;
+  color: #000;
+}
+footer section.top div.item:last-child p a {
+  color: var(--main-heading-color);
+  font-size: 17px;
+  font-weight: 500;
+}
+footer section.top div.item:last-child p a:hover {
+  border-bottom: 1.5px solid #000;
+}
+footer section.top div.item:last-child div.call {
+  display: flex;
+}
+footer section.top div.item:last-child div.call div.icon {
+  width: 7%;
+}
+footer section.top div.item:last-child div.call div.icon img {
+  width: 100%;
+  display: block;
+}
+footer section.top div.item:last-child div.call a {
+  display: block;
+  width: 100%;
+}
+footer section.top div.item:last-child div.social {
+  display: flex;
+  justify-content: space-between;
+}
+footer section.top div.item:last-child div.social ul {
+  display: flex;
+  justify-content: space-between;
+}
+footer section.top div.item:last-child div.social ul li {
+  margin-right: 20px;
+  width: 22%;
+}
+footer section.top div.item:last-child div.social ul li:first-child {
+}
+footer section.top div.item:last-child div.social ul li div.image {
+  width: 68%;
+}
+footer section.top div.item:last-child div.social ul li div.image a {
+}
+footer section.top div.item:last-child div.social ul li div.image a img {
+  width: 100%;
+  display: block;
+}
+
+footer section.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+footer section.bottom div.left {
+  display: flex;
+}
+footer section.bottom p.left {
+  color: #000;
+  font-size: 17px;
+  font-weight: 600;
+}
+footer section.bottom div.bottom_right {
+  display: flex;
+  justify-content: space-between;
+}
+footer section.bottom div.bottom_right div.right {
+  margin-right: 18px;
+}
+footer section.bottom div.bottom_right div.right:last-child {
+  margin-right: 0;
+}
+footer section.bottom div.bottom_right div.right a {
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
 }
