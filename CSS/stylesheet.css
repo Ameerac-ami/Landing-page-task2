@@ -210,11 +210,17 @@ header div.right ul li a.button:hover{
     line-height: 1.2em;
     font-family: 'Poppins';
 }
-#spotlight div.left ul li p{
+#spotlight div.left ul li div.sub{
+    display: flex;
+}
+#spotlight div.left ul li div.sub span{
+    margin-top: 29px;
+}
+#spotlight div.left ul li div.sub p{
     font-weight: 500;
     font-family: 'Poppins';
     color: #868080;
-    margin: 31px 50px 84px 50px;
+    margin: 31px 0 84px 37px;
     font-size: 14px;
     width: 48%;
 }
@@ -245,30 +251,29 @@ header div.right ul li a.button:hover{
 }
 
 #spotlight div.left div.bottom {
-    /* display: flex; */
-    padding: 53px 0px 0 0px;
+    padding-top: 53px;
 }
 #spotlight div.left div.bottom ul{
     display: flex;
-    width: 63%;
+    justify-content: space-between;
+    width: 23%;
 }
 #spotlight div.left div.bottom ul li{
-    display: flex;
+    margin-right: 25px;
 }
 #spotlight div.left div.bottom ul li:first-child{
-
+    margin-right: 52px;
+}
+  #spotlight div.left div.bottom ul li:last-child{
+    margin-right: 0;
 }
 #spotlight div.left div.bottom ul li div.para {
-
-display: flex;
-
-justify-content: flex-start;
 }
 #spotlight div.left div.bottom ul li div.para p{
     text-align: center;
-    margin: 36px 0px 32px 0;
+    margin: 19px 0px 32px 0;
     font-family: 'Poppins';
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
     color: var(--main-heading-color);
 }
@@ -313,24 +318,24 @@ justify-content: flex-start;
 #services div.service_main div.left{
     padding: 59px 0 0 69px;
 }
-#services div.service_main div.left div.top {
-}
-#services div.service_main div.left div.top h1{
+#services div.service_main div.left h1{
     font-weight: 600;
     font-size: 66px;
     width: 58%;
     line-height: 1.4em;
     letter-spacing: 1.2px;
 }
+#services div.service_main div.left div.top {display: flex;}
+
 #services div.service_main div.left div.top span {
     color: #6c5e2d;
-    margin-top: 80px;
+    margin-top: 14px;
 }
 #services div.service_main div.left div.top p{
     font-size: 15px;
     font-weight: 500;
     color: #686262;
-    margin-left: 59px;
+    margin-left: 42px;
     margin-top: 15px;
     width: 66%;
 }
@@ -489,6 +494,7 @@ justify-content: flex-start;
 }
 #experience div.body_section div.right div.title_body ul li div.year {
   margin-top: 19px;
+  width: 27%;
 }
 #experience div.body_section div.right div.title_body ul li div.year h4 {
   font-weight: 600;
@@ -1173,6 +1179,9 @@ footer section.bottom div.bottom_right div.right a {
     }
     #spotlight {
         padding: 48px 11px;
+        background-position: right 67px bottom 33px;
+        background-size: 54%;
+        height: 579px;
     }
     #spotlight div.left ul li {
         width: 67%;
@@ -1190,7 +1199,7 @@ footer section.bottom div.bottom_right div.right a {
     #spotlight div.left ul li a.fill img.tel {
         margin-left: 17px;
         max-width: 14px;
-        right: 85%;
+        right: 87%;
         bottom: 4px;
     }
     #spotlight div.left ul li a.nofill {
@@ -1200,9 +1209,87 @@ footer section.bottom div.bottom_right div.right a {
     #spotlight div.left ul li a.nofill img {
         width: 10px;
     }
+    #spotlight div.right div {
+        margin: 12px 78px 0 0;
+    }
+    #spotlight div.right div p {
+        font-size: 16px;
+    }
+    #spotlight div.right div.play {
+        width: 46%;
+        right: 90%;
+    }
+    #services div.service_main div.left {
+        padding: 45px 0 0 58px;
+    }
+    #services div.service_main div.left div.top h1 {
+        font-size: 50px;
+        width: 66%;
+    }
+    #services div.service_main div.left div.top p {
+        font-size: 13px;
+        width: 79%;
+    }
+    #services div.service_main div.right {
+        padding-top: 32px;
+    }
+    #services div.service_main div.right div.item {
+        margin-right: 79px;
+    }
+    #services div.service_main div.right div.item hr.line2 {
+        margin-top: 27px;
+    }
+    #services div.service_main div.right div.item hr.line3 {
+        margin-top: 13px;
+    }
+    #services div.service_main div.right div.item div.item_title h4 {
+        font-size: 21px;
+    }
+    #services div.service_main div.right div.item div.item_title h2 {
+        font-size: 34px;
+    }
+    #services div.service_main div.right div.item div.click {
+        margin-left: 83px;
+    }
+    #services div.service_main div.right div.item div.click a {
+        font-size: 13px;
+    }
+    #services div.service_main div.right div.item div.click div.arrow img {
+        margin-left: 0;
+    }
+    #experience div.body_section div.left div.title h2 {
+        font-size: 51px;
+    }
+    #experience div.body_section div.left div.tile_body p {
+        font-size: 14px;
+    }
+    #experience div.body_section div.right div.title h2 {
+        font-size: 28px;
+    }
+    #experience div.body_section div.right div.title_body {
+        margin-top: 10px;
+    }
+    #experience div.body_section div.right div.title_body ul li {
+        margin-bottom: 15px;
+    }
+    #experience div.body_section div.right div.title_body ul li div.year h4 {
+        font-size: 13px;
+    }
+    #experience div.body_section div.right div.title_body ul li div.job div.head h2 {
+        font-size: 19px;
+    }
+    #experience div.body_section div.right div.title_body ul li div.job div.sub_head p {
+        font-size: 12px;
+    }
+    #experience div.body_section div.left_bottom ul li div.icons {
+        width: 64px;
+        margin-bottom: 9px;
+    }
+    #experience div.body_section div.left_bottom ul li h4 {
+        font-size: 13px;
+        width: 108px;
+    }
 
-
-    
 }
 
 
