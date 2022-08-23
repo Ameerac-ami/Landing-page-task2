@@ -320,13 +320,14 @@ header div.right ul li a.button:hover{
 }
 #services div.service_main div.left h1{
     font-weight: 600;
-    font-size: 66px;
+    font-size: 60px;
     width: 58%;
     line-height: 1.4em;
     letter-spacing: 1.2px;
 }
-#services div.service_main div.left div.top {display: flex;}
-
+#services div.service_main div.left div.top {
+    display: flex;
+}
 #services div.service_main div.left div.top span {
     color: #6c5e2d;
     margin-top: 14px;
@@ -427,7 +428,7 @@ header div.right ul li a.button:hover{
 #experience div.body_section div.left div.title {
 }
 
-#experience div.body_section div.left div.title h2 {
+#experience div.body_section div.left div.title h1 {
   font-size: 56px;
   font-weight: 500;
   line-height: 1.2em;
@@ -525,8 +526,8 @@ header div.right ul li a.button:hover{
 }
 #projects div.head {
 }
-#projects div.head h3 {
-    font-size: 65px;
+#projects div.head h1 {
+    font-size: 57px;
     font-weight: 600;
     width: 28%;
     line-height: 1.5em;
@@ -677,7 +678,7 @@ header div.right ul li a.button:hover{
 #testimonial div.container div.tab_head div.left {
   display: flex;
   justify-content: space-between;}
-#testimonial div.container div.tab_head div.left h3 {
+#testimonial div.container div.tab_head div.left h1 {
     font-size: 57px;
     font-weight: 600;
     letter-spacing: 2px;
@@ -800,7 +801,7 @@ header div.right ul li a.button:hover{
 }
 #contact div.contact_via div.left h1{
     font-weight: 700;
-    font-size: 59px;
+    font-size: 56px;
     width: 65%;
     letter-spacing: 0.03em;
     margin-top: 33px;
@@ -1024,9 +1025,9 @@ footer section.bottom div.bottom_right div.right a {
   font-size: 15px;
   font-weight: 600;
 }
-@media all and (max-width:1380px) {
+/* @media all and (max-width:1380px) {
 
-}
+} */
 @media all and (max-width : 1280px) {
     header {
         padding: 0px 89px;
@@ -1054,7 +1055,7 @@ footer section.bottom div.bottom_right div.right a {
         padding-top: 20px;
     }
     
-    #projects div.head h3 {
+    #projects div.head h1 {
         font-size: 44px;
         
     }
@@ -1106,7 +1107,7 @@ footer section.bottom div.bottom_right div.right a {
         display: grid;
         gap: 10px;
     }
-    #experience div.body_section div.left div.title h2 {
+    #experience div.body_section div.left div.title h1 {
         font-size: 18px;
         width: 34%;
     }
@@ -1197,10 +1198,7 @@ footer section.bottom div.bottom_right div.right a {
         padding: 13px 23px;
     }
     #spotlight div.left ul li a.fill img.tel {
-        margin-left: 17px;
-        max-width: 14px;
-        right: 87%;
-        bottom: 4px;
+        display: none;
     }
     #spotlight div.left ul li a.nofill {
         margin-left: 14px;
@@ -1222,8 +1220,11 @@ footer section.bottom div.bottom_right div.right a {
     #services div.service_main div.left {
         padding: 45px 0 0 58px;
     }
-    #services div.service_main div.left div.top h1 {
+    #services div.service_main div.left h1 {
         font-size: 50px;
+    }
+    #services div.service_main div.left div.top h1 {
+        font-size: 40px;
         width: 66%;
     }
     #services div.service_main div.left div.top p {
@@ -1263,8 +1264,8 @@ footer section.bottom div.bottom_right div.right a {
     #experience div.body_section div.left div.tile_body p {
         font-size: 14px;
     }
-    #experience div.body_section div.right div.title h2 {
-        font-size: 28px;
+    #experience div.body_section div.left div.title h1 {
+        font-size: 50px;
     }
     #experience div.body_section div.right div.title_body {
         margin-top: 10px;
@@ -1289,8 +1290,117 @@ footer section.bottom div.bottom_right div.right a {
         font-size: 13px;
         width: 108px;
     }
-
+    #projects div.head h3 {
+        font-size: 41px;
+    }
+    #projects div.content ul {
+        padding-top: 45px;
+    }
+    #projects div.content ul li {
+        margin-top: 41px;
+    }
+    #projects div.content ul li p {
+        font-size: 11px;
+        width: 43%;
+    }
+    #projects div.content ul li hr.line {
+        width: 59%;
+    }
+    #projects div.content ul li div.sub_head h4 {
+        font-size: 25px;
+    }
+    #projects div.content ul li:first-child div.template {
+        max-width: 59%;
+    }
+    #projects div.content ul li div.arrow {
+        display: none;
+    }
+    #projects div.content ul li:nth-child(2) hr.line {
+        width: 58%;
+    }
+    #projects div.content ul li:nth-child(2) div.sub_head h4 {
+        font-size: 25px;
+    }
+    #projects div.content ul li:nth-child(2) div.arrow {
+        display: none;
+    }
+    #projects div.content ul li:nth-child(3) hr.line {
+        width: 92%;
+    }
+    #projects div.content ul li:nth-child(2) div.template {
+        max-width: 60%;
+    }
+    #projects div.content ul li:nth-child(3) div.template {
+        max-width: 93%;
+    }
+    #testimonial div.container {
+        padding-top: 0;
+    }
+    #testimonial div.container div.tab_head div.left h3 {
+        font-size: 40px;
+    }
+    #testimonial div.container div.tab_body div.left div.person2 {
+        width: 100%;
+    }
+    #testimonial div.container div.tab_body {
+        padding: 24px 0px;
+    }
+    #testimonial div.container div.tab_body div.middle p {
+        font-size: 14px;
+        width: 100%;
+        margin-bottom: 18px;
+        margin-top: 32px;
+        font-weight: 500;
+    }
+    #testimonial div.container div.tab_body div.middle p b {
+        font-size: 15px;
+    }
+    #testimonial div.container div.tab_body div.left div.person2 {
+        width: 100%;
+    }
+    #testimonial div.container div.tab_body div.middle p small b {
+        font-size: 15px;
+    }
+    #testimonial div.container div.tab_body div.middle h5 {
+        font-size: 14px;
+    }
+    #contact div.contact_via div.left h1 {
+        font-size: 47px;
+        width: 72%;
+    }
+    #contact div.contact_via div.right {
+        display: none;
+    }
+    #contact div.contact_via div.left div.connect div.details h2 {
+        font-size: 17px;
+        width: 286px;
+    }
+    #contact div.contact_via div.left div.connect div {
+        width: 58px;
+    }
 }
-
-
-
+@media all and (max-width : 980px) {
+    #spotlight {
+        background-position: right 2px bottom 80px;
+        background-size: 54%;
+    }
+    #spotlight div.left ul li h1 {
+        font-size: 31px;
+    }
+    #spotlight div.right div.play {
+       display: none;
+    }
+    #spotlight div.right div p {
+        display: none;
+    }
+    #spotlight div.left div.bottom ul li {
+        margin-right: 12px;
+    }
+    #spotlight div.left div.bottom ul li div.para {
+        width: 100px;
+    }
+    #spotlight div.left div.bottom ul li a img {
+        width: 50px;
+        margin-top: 4px;
+    }
+}
