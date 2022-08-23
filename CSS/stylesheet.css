@@ -33,7 +33,7 @@ p{
 .wrapper {
     width: 90%;
     margin: 0 auto;
-    max-width: 1195px;
+    max-width: 1040px;
 }
 :root {
     --main-bg-color: #FCDA69;
@@ -495,7 +495,7 @@ header div.right ul li a.button{
 
 #projects {
     background: #FCDA69;
-    padding: 65px 0;
+    padding: 65px 65px;
     position: relative;
 }
 #projects div.head {
@@ -895,7 +895,7 @@ footer section.top div.item p {
 }
 
 footer section.top div.item h3 {
-  font-size: 24px;
+  font-size: 21px;
   color: var(--main-heading-color);
   font-weight: 600;
   margin-bottom: 20px;
@@ -906,7 +906,7 @@ footer section.top div.item ul {
 footer section.top div.item ul li {
 }
 footer section.top div.item ul li a {
-  padding: 4px 0;
+  margin: 4px 0;
   display: inline-block;
   font-size: 16px;
   font-weight: 500;
