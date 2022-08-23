@@ -765,98 +765,104 @@ header div.right ul li a.button{
 #contact {
     background: #FCDA69;
     padding: 35px 62px;
-    display: flex;
-    height: 100vh;
-}
-#contact div.left{
     position: relative;
 }
-#contact div.left h1{
+#contact div.contact_via{
+    display: flex;
+    position: relative;
+}
+#contact div.contact_via div.left{
+}
+#contact div.contact_via div.left h1{
     font-weight: 700;
     font-size: 59px;
-    width: 70%;
+    width: 65%;
     letter-spacing: 0.03em;
     margin-top: 33px;
     margin-bottom: 37px;
     }
-#contact div.left h3{
+#contact div.contact_via div.left h3{
 }
-#contact div.left div.connect{
+#contact div.contact_via div.left div.connect{
     display: flex;
     justify-content: flex-start;
     margin-bottom: 30px;
-    width: 67%;
-    /* margin-top: 18px; */
+    width: 60%;
     border-top: 1px solid #18212c;
 }
-#contact div.left div.connect div{
+#contact div.contact_via div.left div.connect div{
     width: 68px;
     margin-top: 29px;
 }
-#contact div.left div.connect div img{
+#contact div.contact_via div.left div.connect div img{
     display: block;
     width: 100%;
 }
-#contact div.left div.connect div.details {
+#contact div.contact_via div.left div.connect div.details {
     margin-left: 23px;
     margin-bottom: 32px;
     width: 52%;
 }
-#contact div.left div.connect div.details small{
+#contact div.contact_via div.left div.connect div.details small{
     font-weight: 800;
     color: gray;
 }
-#contact div.left div.connect div.details h2{
+#contact div.contact_via div.left div.connect div.details h2{
     margin-top: 5px;
     font-size: 19px;
     font-weight: 600;
     width: 313px;
 }
-#contact div.right {
-    justify-content: flex-start;
+#contact div.contact_via div.right {
+    justify-content: flex-end;
     border: 1px solid #000;
-    border-radius: 50%;
-    width: 54%;
-    align-items: center;
+    border-radius: 86%;
+    width: 56%;
     display: flex;
+    align-items: center;
 }
-#contact div.right div.image:first-child{
+#contact div.contact_via div.right div.image:first-child{
     width: 59px;
     position: absolute;
     top: 48%;
     right: 39%;
     transform: rotate(-16deg);
 }
-#contact div.right div.image:first-child img{
+#contact div.contact_via div.right div.image:first-child img{
     display: block;
     width: 100%;
 }
-#contact div.right div.image:last-child{
+#contact div.contact_via div.right div.image:last-child{
     width: 100px;
     position: absolute;
-    top: 41%;
-    right: 9%;
+    top: 40%;
+    right: 6%;
 }
-#contact div.right hr.line{
+#contact div.contact_via div.right hr.line{
     position: relative;
-    top: 9%;
+    top: 10%;
     right: 14%;
     border-bottom: 1px solid #18212c;
     width: 100%;
 }
-#contact div.right div.image:last-child img{
+#contact div.contact_via div.right div.image:last-child img{
     display: block;
     width: 100%;
 }
-#contact div.right div.main {
-    display: flex;
-    justify-content: left;
+#contact div.contact_via div.right div.main {
 }
-#contact div.right div.main h3{
+#contact div.contact_via div.right div.main h3{
     margin-left: 102px;
     font-weight: 700;
     width: 69px;
-    margin-top: 25px;
+    margin-top: 35px;
+}
+#contact hr.line2{
+    position: relative;
+    left: 5%;
+    padding-top: 24px;
+    border-bottom: 2px solid #18212c;
+    width: 89%;
 }
 footer {
   padding: 56px 86px 38px 38px;
@@ -994,3 +1000,13 @@ footer section.bottom div.bottom_right div.right a {
   font-size: 15px;
   font-weight: 600;
 }
+@media all and (max-width:1380px) {
+
+}
+@media all and (max-width:1280px) {
+
+
+}
+
+
+
