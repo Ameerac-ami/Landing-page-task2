@@ -1539,6 +1539,18 @@ footer section.bottom div.bottom_right div.right a {
     header div.middle ul {
         margin-left: 0;
     }
+    header div.right ul li a {
+        font-size: 9px;
+    }
+    header div.right ul li a.button {
+        font-size: 9px;
+        padding: 8px 22px;
+    }
+    #spotlight {
+        background-position: right 2px bottom 211px;
+        background-size: 56%;
+        padding: 58px 50px;
+    }
     #spotlight div.left ul li div.sub p {
         font-size: 8px;
     }
@@ -1550,6 +1562,109 @@ footer section.bottom div.bottom_right div.right a {
         margin: 19px 0px 32px 0;
         font-size: 10px;
     }
-    
+    #services div.service_main div.left h1 {
+        font-size: 40px;
+    }
+    #services div.service_main div.right div.item div.item_title h4 {
+        font-size: 13px;
+    }
+    #services div.service_main div.right div.item div.item_title h2 {
+        font-size: 20px;
+    }
+    #services div.service_main div.left div.bottom {
+        margin-top: 100px;
+    }
+    #experience div.body_section div.left div.title h1 {
+        font-size: 38px;
+    }
+    #experience div.body_section div.right div.title h2 {
+        font-size: 19px;
+    }
+    #experience div.body_section div.right div.title_body {
+        margin-top: 0px;
+    }
+    #experience div.body_section div.left_bottom ul {
+        padding-top: 22px;
+    }
+    #experience div.body_section div.left div.tile_body span {
+        display: none;
+    }
+    #experience div.body_section div.left div.tile_body p {
+        font-size: 9px;
+    }
+    #experience div.body_section div.left_bottom ul li div.icons {
+        width: 41px;
+    }
+    #experience div.body_section div.right {
+        grid-column: 4 / span 14;
+    }
+    #experience div.body_section div.right div.title_body ul li {
+        margin-bottom: 6px;
+    }
+    #experience div.body_section div.right div.title_body ul li div.year {
+        margin-top: 19px;
+        width: 33%;
+    }
+    #experience div.body_section div.right div.title_body ul li div.year h4 {
+        font-size: 9px;
+    }
+    #projects div.content ul li:first-child div.template {
+        max-width: 35%;
+    }
+    #projects div.content ul li div.sub_head h4 {
+        font-size: 17px;
+        width: 41%;
+    }
+    #projects div.content ul li hr.line {
+        width: 35%;
+    }
+    #projects div.content ul li:nth-child(2) div.sub_head h4 {
+        font-size: 17px;
+    }
+    #projects div.content ul li:nth-child(3) div.sub_head h4 {
+        font-size: 17px;
+        width: 92%;
+    }
+    #projects div.content ul li:nth-child(2) {
+        bottom: 24%;
+    }
+    #projects div.content ul li:nth-child(3) {
+        bottom: 49%;
+    }
+    #projects div.content ul li p {
+        width: 59%;
+    }
+    #contact div.contact_via div.left h1 {
+        font-size: 35px;
+    }
+    footer section.top div.item:last-child p {
+        font-size: 9px;
+    }   
 }
+@media all and (max-width:480px) {
+
+    header div.right {
+    display: none;
+    }
+    header div.middle {
+        display: none;
+    }
+    header div.left div.logo {
+        margin-left: 100px;
+        width: 100px;
+    }
+    #spotlight {
+        background-position: right 2px bottom 283px;
+        background-size: 40%;
+    }
+    #spotlight div.left ul {
+        margin-left: 0;
+    }
+    #services div.service_main div.left h1 {
+        font-size: 20px;
+    }
+
+
+}
+
 
