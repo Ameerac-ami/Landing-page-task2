@@ -198,10 +198,10 @@ header div.right ul li a.button:hover{
 #spotlight div.left{
 }
 #spotlight div.left ul{
-    margin-left: 45px;
+    margin-left: 42px;
+    position: relative;
 }
 #spotlight div.left ul li{
-    width: 66%;
 }
 #spotlight div.left ul li h1{
     font-weight: 600;
@@ -216,18 +216,22 @@ header div.right ul li a.button:hover{
     color: #868080;
     margin: 31px 50px 84px 50px;
     font-size: 14px;
+    width: 48%;
 }
 #spotlight div.left ul li a.fill{
     color: #ffffff;
     font-size: 13px;
     background: #8873EF;
     border-radius: 9px;
-    padding: 15px 21px;
+    padding: 16px 28px;
     font-family: 'Poppins';
 }
 #spotlight div.left ul li a.fill img.tel{
     margin-left: 17px;
     max-width: 18px;
+    position: absolute;
+    right: 87%;
+    bottom: 3px;
 }
 #spotlight div.left ul li a.nofill{
     margin-left: 17px;
@@ -241,23 +245,24 @@ header div.right ul li a.button:hover{
 }
 
 #spotlight div.left div.bottom {
-    display: flex;
-    justify-content: flex-start;
-    padding: 90px 0 0 0;
+    /* display: flex; */
+    padding: 53px 0px 0 0px;
 }
 #spotlight div.left div.bottom ul{
     display: flex;
-    justify-content: space-between;
+    width: 63%;
 }
 #spotlight div.left div.bottom ul li{
-    width: 84px; 
-    margin-left: 20px;
+    display: flex;
 }
 #spotlight div.left div.bottom ul li:first-child{
 
 }
 #spotlight div.left div.bottom ul li div.para {
 
+display: flex;
+
+justify-content: flex-start;
 }
 #spotlight div.left div.bottom ul li div.para p{
     text-align: center;
@@ -274,6 +279,7 @@ header div.right ul li a.button:hover{
     margin-top: 15px;
 }
 #spotlight div.right {
+    position: relative;
 }
 #spotlight div.right div {
     text-align: center;
@@ -284,6 +290,17 @@ header div.right ul li a.button:hover{
     font-family: 'Poppins';
     font-weight: 600;
     line-height: 1.7em;
+}
+#spotlight div.right div.play{
+    position: absolute;
+    width: 49%;
+    top: 40%;
+    right: 84%;
+
+}
+#spotlight div.right div.play img{
+    width: 100%;
+    display: block;
 }
 #services  {
     background: #FCDA69;
@@ -445,17 +462,15 @@ header div.right ul li a.button:hover{
   display: block;
   width: 100%;
 }
-
 #experience div.body_section div.left_bottom ul li h4 {
   font-size: 15px;
   font-weight: 500;
-  width: 127px;}
-
+  width: 127px;
+}
 #experience div.body_section div.right {
   grid-column: 2 / span 11;
   grid-row: 1 / span 2;
 }
-
 #experience div.body_section div.right div.title {
 }
 #experience div.body_section div.right div.title h2 {
@@ -467,7 +482,6 @@ header div.right ul li a.button:hover{
 }
 #experience div.body_section div.right div.title_body ul {
 }
-
 #experience div.body_section div.right div.title_body ul li {
   display: flex;
   border-top: 2px solid gray;
@@ -977,7 +991,6 @@ footer section.top div.item:last-child div.social ul li div.image a img {
   width: 100%;
   display: block;
 }
-
 footer section.bottom {
   display: flex;
   justify-content: space-between;
@@ -1009,9 +1022,8 @@ footer section.bottom div.bottom_right div.right a {
 
 }
 @media all and (max-width : 1280px) {
-    header
-    {
-        padding: 0px 77px;
+    header {
+        padding: 0px 89px;
     }
     header div.middle {
 
@@ -1029,27 +1041,168 @@ footer section.bottom div.bottom_right div.right a {
         font-size: 54px;
     }
     #projects{
-        padding: 0;
+        padding: 25px;
     }
+    #projects div.head {
+        padding-left: 17px;
+        padding-top: 20px;
+    }
+    
     #projects div.head h3 {
-        font-size:50px;
+        font-size: 44px;
         
-    }#projects div.content ul li:nth-child(2) {
-        position: absolute;
-        bottom: 23%;
-        left: 33%;
+    }
+    #projects div.content ul {
+        padding-top: 83px;
+    }
+    
+    #projects div.content ul li hr.line {
+        width: 72%;
+    }
+    #projects div.content ul li div.sub_head h4 {
+        font-size: 25px;
     }
     #projects div.content ul li:first-child div.template {
-        max-width: 62%;
+        max-width: 72%;
+    }
+    #projects div.content ul li div.arrow {
+        width: 9%;
+        top: 5%;
+    }
+    #projects div.content ul li:nth-child(2) {
+        position: absolute;
+        bottom: 20%;
+        left: 33%;
     }
     #projects div.content ul li:nth-child(2) div.template {
-        max-width: 60%;
+        max-width: 72%;
+    }
+    #projects div.content ul li:nth-child(3) hr.line {
+        width: 84%;
+    }
+    #projects div.content ul li:nth-child(3) div.sub_head h4 {
+        font-size: 25px;
+    }
+    #projects div.content ul li:nth-child(3) div.arrow {
+        width: 12%;
+        left : 73%
     }
     #projects div.content ul li:nth-child(3) div.template {
         max-width: 83%;
     }
+}
+@media all and (max-width:360px) {
+    #experience {
+        padding: 19px;
+    }
+    
+    #experience div.body_section {
+        display: grid;
+        gap: 10px;
+    }
+    #experience div.body_section div.left div.title h2 {
+        font-size: 18px;
+        width: 34%;
+    }
+    #experience div.body_section div.left div.tile_body {
+        margin-top: 7px;
+    }
+    #experience div.body_section div.left div.tile_body p {
+        width: 262px;
+        margin-left: 15px;
+        font-size: 10px;
+    }
+    #experience div.body_section div.left_bottom {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    #experience div.body_section div.left_bottom ul {
+        padding: 131px 0px;
+    }
+    #experience div.body_section div.left_bottom ul li {
+        width: 33%;
+    }
+    #experience div.body_section div.left_bottom ul li div.icons {
+        width: 50px;
+        margin-bottom: 5px;
+        margin-top: 7px;
+    }
+    #experience div.body_section div.left_bottom ul li h4 {
+        font-size: 11px;
+        width: 87px;
+    }
+    #experience div.body_section div.right div.title h2 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    #experience div.body_section div.right div.title_body {
+        margin-top: 10px;
+    }
+    #experience div.body_section div.right div.title_body ul li {
+        border-top: 2px solid gray;
+        margin-bottom: 9px;
+    }
+    #experience div.body_section div.right {
+        grid-column: 1;
+        grid-row: 2;
+    }
+}
+@media all and (max-width:1080px) {
+    header {
+        padding: 0px 46px;
+    }
+    header div.left div.logo {
+        width: 83px;
+    }
+    header div.middle ul li {
+        margin-right: 23px;
+    }
+    header div.middle ul li a {
+        font-size: 10px;
+    }
+    header div.right ul li {
+        margin-right: 15px;
+    }
+    header div.right ul li a {
+        font-size: 13px;
+    }
+    header div.right ul li a.button {
+        font-size: 13px;
+        padding: 9px 25px;
+    }
+    #spotlight {
+        padding: 48px 11px;
+    }
+    #spotlight div.left ul li {
+        width: 67%;
+    }
+    #spotlight div.left ul li h1 {
+        font-size: 38px;
+    }
+    #spotlight div.left ul li p {
+        margin: 31px 50px 84px 50px;
+    }
+    #spotlight div.left ul li a.fill {
+        font-size: 10px;
+        padding: 13px 23px;
+    }
+    #spotlight div.left ul li a.fill img.tel {
+        margin-left: 17px;
+        max-width: 14px;
+        right: 85%;
+        bottom: 4px;
+    }
+    #spotlight div.left ul li a.nofill {
+        margin-left: 14px;
+        font-size: 12px;
+    }
+    #spotlight div.left ul li a.nofill img {
+        width: 10px;
+    }
 
 
+    
 }
 
 
