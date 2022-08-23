@@ -495,7 +495,7 @@ header div.right ul li a.button:hover{
 }
 #experience div.body_section div.right div.title_body ul li div.year {
   margin-top: 19px;
-  width: 27%;
+  width: 26%;
 }
 #experience div.body_section div.right div.title_body ul li div.year h4 {
   font-weight: 600;
@@ -679,7 +679,7 @@ header div.right ul li a.button:hover{
   display: flex;
   justify-content: space-between;}
 #testimonial div.container div.tab_head div.left h1 {
-    font-size: 57px;
+    font-size: 56px;
     font-weight: 600;
     letter-spacing: 2px;
     line-height: 1.6;
@@ -1029,12 +1029,6 @@ footer section.bottom div.bottom_right div.right a {
 
 } */
 @media all and (max-width : 1280px) {
-    header {
-        padding: 0px 89px;
-    }
-    header div.middle {
-
-    }
     header div.middle ul{
         display: flex;
         justify-content: center;
@@ -1056,8 +1050,7 @@ footer section.bottom div.bottom_right div.right a {
     }
     
     #projects div.head h1 {
-        font-size: 44px;
-        
+        font-size: 50px;
     }
     #projects div.content ul {
         padding-top: 83px;
@@ -1097,8 +1090,12 @@ footer section.bottom div.bottom_right div.right a {
     #projects div.content ul li:nth-child(3) div.template {
         max-width: 83%;
     }
-}
-@media all and (max-width:360px) {
+    #testimonial div.container div.tab_head div.left h1 {
+        font-size: 50px;
+    }
+}  
+
+/* @media all and (max-width:360px) {
     #experience {
         padding: 19px;
     }
@@ -1154,7 +1151,7 @@ footer section.bottom div.bottom_right div.right a {
         grid-column: 1;
         grid-row: 2;
     }
-}
+} */
 @media all and (max-width:1080px) {
     header {
         padding: 0px 46px;
@@ -1211,17 +1208,17 @@ footer section.bottom div.bottom_right div.right a {
         margin: 12px 78px 0 0;
     }
     #spotlight div.right div p {
-        font-size: 16px;
+        font-size: 14px;
     }
     #spotlight div.right div.play {
-        width: 46%;
-        right: 90%;
+        width: 49%;
+        right: 95%;
     }
     #services div.service_main div.left {
         padding: 45px 0 0 58px;
     }
     #services div.service_main div.left h1 {
-        font-size: 50px;
+        font-size: 45px;
     }
     #services div.service_main div.left div.top h1 {
         font-size: 40px;
@@ -1265,7 +1262,7 @@ footer section.bottom div.bottom_right div.right a {
         font-size: 14px;
     }
     #experience div.body_section div.left div.title h1 {
-        font-size: 50px;
+        font-size: 45px;
     }
     #experience div.body_section div.right div.title_body {
         margin-top: 10px;
@@ -1336,8 +1333,8 @@ footer section.bottom div.bottom_right div.right a {
     #testimonial div.container {
         padding-top: 0;
     }
-    #testimonial div.container div.tab_head div.left h3 {
-        font-size: 40px;
+    #testimonial div.container div.tab_head div.left h1 {
+        font-size: 44px;
     }
     #testimonial div.container div.tab_body div.left div.person2 {
         width: 100%;
@@ -1365,7 +1362,7 @@ footer section.bottom div.bottom_right div.right a {
         font-size: 14px;
     }
     #contact div.contact_via div.left h1 {
-        font-size: 47px;
+        font-size: 45px;
         width: 72%;
     }
     #contact div.contact_via div.right {
@@ -1403,4 +1400,156 @@ footer section.bottom div.bottom_right div.right a {
         width: 50px;
         margin-top: 4px;
     }
+    #services div.service_main div.left div.top p {
+        font-size: 9px;
+        width: 71%;
+    }
+    #services div.service_main div.right {
+        padding-top: 65px;
+    }
+    #services div.service_main div.right div.item {
+        margin-right: 2px;
+    }
+    #services div.service_main div.right div.item div.item_title h4 {
+        font-size: 17px;
+    }
+    #services div.service_main div.right div.item div.item_title h2 {
+        font-size: 27px;
+    }
+    #services div.service_main div.right div.item div.click {
+        margin-left: 75px;
+    }
+    #services div.service_main div.right div.item div.click a {
+        font-size: 11px;
+    }
+    #experience {
+        padding: 72px 72px 0;
+    }
+    #experience div.body_section div.left div.tile_body p {
+        width: 99%;
+        font-size: 12px;
+    }
+    #experience div.body_section div.left_bottom ul li {
+        width: 33%;
+    }
+    #experience div.body_section div.left_bottom ul li div.icons {
+        width: 53px;
+    }
+    #experience div.body_section div.left_bottom ul li h4 {
+        font-size: 11px;
+    }
+    #experience div.body_section div.left_bottom ul {
+        padding-top: 140px;
+    }
+    #experience div.body_section div.right div.title h2 {
+        font-size: 25px;
+    }
+    #experience div.body_section div.right {
+        grid-column: 3 / span 11;
+    }
+    #experience div.body_section div.right div.title_body ul li div.year h4 {
+        font-size: 11px;
+    }
+    #projects div.head h1 {
+        font-size: 45px;    
+    }
+    #projects div.content ul {
+        padding-top: 63px;
+    }
+    #projects div.content ul li {
+        margin-top: 11px;
+    }
+    #projects div.content ul li hr.line {
+        width: 43%;
+    }
+    #projects div.content ul li div.sub_head h4 {
+        font-size: 20px;
+        width: 42%;
+    }
+    #projects div.content ul li:first-child div.template {
+        max-width: 44%;
+    }
+    #projects div.content ul li:nth-child(2) {
+        position: absolute;
+        bottom: 26%;
+    }
+    #projects div.content ul li:nth-child(2) hr.line {
+        width: 46%;
+    }
+    #projects div.content ul li:nth-child(2) div.sub_head h4 {
+        font-size: 20px;
+    }
+    #projects div.content ul li:nth-child(2) div.template {
+        max-width: 47%;
+    }
+    #projects div.content ul li:nth-child(3) {
+        bottom: 53%;
+    }
+    #projects div.content ul li:nth-child(3) div.sub_head h4 {
+        font-size: 20px;
+        width: 90%;
+    }
+    #projects div.content ul li p {
+        width: 47%;
+    }
+    #testimonial div.container div.tab_head div.left h1 {
+        font-size: 40px;
+    }
+    #testimonial div.container div.tab_head div.middle {
+        margin-left: 87px;
+    }
+    #testimonial div.container div.tab_head div.middle p {
+        width: 78%;
+    }
+    footer section.top div.item h1 a {
+        width: 75%;
+    }    
+    footer section.top div.item p {
+        font-size: 10px;
+    }
+    footer section.top div.item {
+        width: 16%;
+    }
+    footer section.top div.item h3 {
+        font-size: 14px;
+    }
+    footer section.top div.item ul li a {
+        margin: 0;
+        font-size: 10px;
+    }
+    footer section.top div.item:last-child p a {
+        font-size: 10px;
+    }
+    footer section.top div.item:last-child div.social ul li {
+        margin-right: 3px;
+    }
+    footer section.bottom p.left {
+        color: #000;
+        font-size: 8px;
+    }
+    footer section.bottom div.bottom_right div.right a {
+        color: #000;
+        font-size: 10px;
+    }
 }
+@media all and (max-width:780px) {
+    header {
+        padding: 0px 15px;
+    }
+    header div.middle ul {
+        margin-left: 0;
+    }
+    #spotlight div.left ul li div.sub p {
+        font-size: 8px;
+    }
+
+    #spotlight div.left div.bottom ul {
+        width: 15%;
+    }
+    #spotlight div.left div.bottom ul li div.para p {
+        margin: 19px 0px 32px 0;
+        font-size: 10px;
+    }
+    
+}
+
